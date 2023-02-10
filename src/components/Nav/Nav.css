@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background: rebeccapurple;
+    background: linear-gradient(90deg, rgba(57,104,165,1) 0%, rgba(57,178,219,1) 35%, rgba(70,135,200,1) 100%);
 }
 
 .logo {
@@ -15,6 +15,16 @@
     display: flex;
     gap: 20px;
     text-align: start;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.link_icon {
+    width: 23px;
 }
 
 .icon-hamburger {
@@ -34,12 +44,8 @@
 
 .nav-link {
     text-decoration: none;
-    color: var(--Dark-Blue);
+    color: var(--White);
     transition: 0.5s;
-}
-
-.nav-link:hover {
-    color: var(--Dark-Grayish-Blue);
 }
 
 @media (max-width: 768px) {
@@ -54,7 +60,6 @@
         flex-direction: column;
         text-align: center;
         border-radius: 6px;
-        background: var(--White);
         padding: 30px;
         width: 53%;
         align-items: center;

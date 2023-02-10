@@ -3,6 +3,11 @@ import { useState, useEffect } from "react";
 import "./Nav.css";
 import Logo from "../Images/BeunikPRO.png";
 import IconHamburger from "../Images/icon-hamburger.svg";
+import BenefitIcon from "../Images/benefit_icon.svg";
+import DownloadIcon from "../Images/download_icon.svg";
+import MembershipIcon from "../Images/membership_icon.svg";
+import TestimonyIcon from "../Images/testimony_icon.svg";
+import ContactIcon from "../Images/contact_icon.svg";
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -35,7 +40,8 @@ function Nav() {
             <img className="logo-hamburger" src={Logo} alt="" />
           </div>
           <div className="links-content">
-            <div>
+            <div className="links">
+              <img className="link_icon" src={BenefitIcon} alt="" />
               <a
                 className={`nav-link ${menuOpen ? "open" : "closed"}`}
                 onClick={handleClick}
@@ -44,7 +50,8 @@ function Nav() {
                 Beneficios
               </a>
             </div>
-            <div>
+            <div className="links">
+              <img className="link_icon" src={DownloadIcon} alt="" />
               <a
                 className={`nav-link ${menuOpen ? "open" : "closed"}`}
                 onClick={handleClick}
@@ -53,7 +60,8 @@ function Nav() {
                 Descargas
               </a>
             </div>
-            <div>
+            <div className="links">
+              <img className="link_icon" src={MembershipIcon} alt="" />
               <a
                 className={`nav-link ${menuOpen ? "open" : "closed"}`}
                 onClick={handleClick}
@@ -62,7 +70,8 @@ function Nav() {
                 Membresías
               </a>
             </div>
-            <div>
+            <div className="links">
+              <img className="link_icon" src={TestimonyIcon} alt="" />
               <a
                 className={`nav-link ${menuOpen ? "open" : "closed"}`}
                 onClick={handleClick}
@@ -71,7 +80,8 @@ function Nav() {
                 Testimonios
               </a>
             </div>
-            <div>
+            <div className="links">
+              <img className="link_icon" src={ContactIcon} alt="" />
               <a
                 className={`nav-link ${menuOpen ? "open" : "closed"}`}
                 onClick={handleClick}
