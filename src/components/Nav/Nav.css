@@ -92,5 +92,8 @@
     .bg-hamburger {
         height: 100vh;
         box-sizing: border-box;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
     }
 }
