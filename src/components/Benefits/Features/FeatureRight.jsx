@@ -3,7 +3,7 @@ import React from "react";
 function Features(props) {
   return (
     <>
-      <div className="benefits-conetnt">
+      <div className="feature">
         {props.children}
         <div className="gris"></div>
       </div>
