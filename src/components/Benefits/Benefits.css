@@ -1,3 +1,9 @@
+.benefitss {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
 .video {
     display: flex;
     justify-content: center;
@@ -24,6 +30,41 @@
 .si {
     font-size: 3.4rem;
     font-weight: 600;
+}
+
+.benefits-conetnt {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.gris {
+    width: 350px;
+    height: 550px;
+    background: #f4f7f9;
+    border: 1px solid black;
+}
+
+
+.feature-title {
+    color: var(--Blue);
+    font-weight: 600;
+    font-size: 3rem;
+    margin: auto auto 15px auto;
+}
+
+.feature-text {
+    color: var(--Dark-blue);
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin: 0;
+}
+
+.feature-description {
+    font-size: 2rem;
+    margin: 15px auto auto auto;
+    color: var(--Text);
 }
 
 @media(max-width: 1515px) {
