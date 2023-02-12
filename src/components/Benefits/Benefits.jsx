@@ -102,7 +102,7 @@ function Benefits() {
           <h4 className="feature-text">¡Crea promociones irresistibles!</h4>
           <p className="feature-description">
             Te brindamos una cómoda interfaz <br /> donde puedes crear todo tipo
-            de <br /> promos para atraer y fidelizar tu clientela.
+            de <br /> promos para atraer y fidelizar tu <br /> clientela.
           </p>
         </div>
       </FeaturesLeft>
