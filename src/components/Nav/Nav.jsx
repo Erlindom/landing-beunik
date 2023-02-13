@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./Nav.css";
 import Logo from "../Images/BeunikPRO.png";
 import IconHamburger from "../Images/icon-hamburger.svg";
@@ -14,10 +14,6 @@ function Nav() {
   const handleClick = () => {
     setMenuOpen(!menuOpen);
   };
-
-  useEffect(() => {
-    return () => {};
-  }, []);
 
   return (
     <>
