@@ -37,24 +37,6 @@
     gap: 20px;
 }
 
-.btn-store {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: var(--Blue);
-    font-size: 1.1rem;
-    align-items: center;
-    gap: 10px;
-    background: var(--White);
-    width: 200px;
-    padding: 5px;
-    border-radius: 50px;
-    line-height: 1.7rem;
-}
-
-.store {
-    font-size: 1.4rem;
-}
 
 .cosm {
     display: flex;

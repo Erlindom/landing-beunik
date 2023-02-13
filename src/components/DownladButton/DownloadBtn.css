@@ -1,0 +1,32 @@
+.btn-store {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--Blue);
+    font-size: 1.1rem;
+    align-items: center;
+    gap: 10px;
+    background: var(--White);
+    width: 200px;
+    padding: 5px;
+    border-radius: 50px;
+    line-height: 1.7rem;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.28);
+}
+
+.icon_store {
+    width: 25px;
+}
+
+.store {
+    font-size: 1.4rem;
+}
+
+@media(max-width: 855px) {
+    .btn-store {
+        line-height: 1.3rem;
+    }
+    .store {
+        font-size: 1.3rem;
+    }
+}
