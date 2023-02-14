@@ -1,0 +1,216 @@
+.plan, .planTwo, .planThree {
+    width: 320px;
+    padding: 20px 5px 30px 5px;
+    background: var(--Light-blue);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planTwo {
+    background: var(--Blue);
+}
+
+.planThree {
+    background: var(--Dark-blue);
+}
+
+.title_plan {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 8px 0px 5px 0px;
+}
+
+.planTitleBlue {
+    color: var(--Dark-blue);
+    text-align: center;
+}
+
+.planTitleWhite {
+    color: var(--White);
+    text-align: center;
+}
+
+.image_plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.planImage {
+    width: 95px;
+    height: 65px;
+}
+
+.plan-text {
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+}
+
+.darkBlueLine, .lightBlueLine {
+    background: var(--Dark-blue);
+    width: 90%;
+    height: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.lightBlueLine {
+    background: var(--Light-blue);
+}
+
+.plan_caracter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.points_content {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.membership_features {
+    margin: 0;
+    color: var(--Dark-blue);
+    font-weight: 600;
+}
+
+.textFeatureWhite {
+    color: var(--White);
+    font-weight: 300;
+}
+
+.price-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--Dark-blue);
+    margin: 0px 0px 15px 0px;
+}
+
+.colorPriceWhite {
+    color: var(--White);
+}
+
+.getPlan_btn {
+    display: flex;
+    justify-content: center;
+    background: var(--White);
+    color: var(--Dark-blue);
+    text-decoration: none;
+    padding: 7px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 180px;
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 28%);
+}
+
+.cop {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.monthly {
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 400;
+}
+
+.lastPart_price {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+@media(max-width: 1125px) {
+    .plan, .planTwo, .planThree {
+        width: 290px;
+    }
+    .planTitleBlue, .planTitleWhite {
+        font-size: 1.8rem;
+    }
+    .plan-text, .membership_features {
+        font-size: 0.9rem;
+    }
+    .price {
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    .plan, .planTwo, .planThree {
+        width: 270px;
+    }
+    .planTitleBlue, .planTitleWhite {
+        font-size: 1.6rem;
+    }
+    .plan-text, .membership_features {
+        font-size: 0.8rem;
+    }
+    .price {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 940px) {
+    .plan, .planTwo, .planThree {
+        width: 240px;
+    }
+    .planTitleBlue, .planTitleWhite {
+        font-size: 1.6rem;
+    }
+    .plan-text, .membership_features {
+        font-size: 0.8rem;
+    }
+    .price {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 800px) {
+    .plan, .planTwo, .planThree {
+        width: 220px;
+    }
+    .planTitleBlue, .planTitleWhite {
+        font-size: 1.5rem;
+    }
+    .plan-text, .membership_features {
+        font-size: 0.7rem;
+    }
+    .price {
+        font-size: 1.3rem;
+    }
+    .getPlan_btn {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .plan, .planTwo, .planThree {
+        width: 400px;
+    }
+    .image_plan {
+        flex-direction: unset;
+    }
+    .darkBlueLine, .lightBlueLine, .plan_caracter {
+        display: none;
+    }
+}
