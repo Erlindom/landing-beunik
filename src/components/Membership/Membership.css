@@ -4,6 +4,12 @@
     gap: 40px;
 }
 
+.membershipsMobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title_membership {
     font-size: 3rem;
     text-align: center;
@@ -26,8 +32,9 @@
 
 @media(max-width: 768px) {
     .memberships {
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
+        display: none;
+    }
+    .membershipsMobile {
+        display: flex;
     }
 }

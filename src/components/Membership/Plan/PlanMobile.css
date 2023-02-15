@@ -1,0 +1,42 @@
+@media(max-width: 768px) {
+    .plan, .planTwo, .planThree {
+        width: 320px;
+        border-radius: 0;
+        padding: 10px 15px 10px 15px;
+    }
+    .plan {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .planThree {
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .planTitleBlue, .planTitleWhite {
+        text-align: start;
+    }
+    .lastPart_price {
+        align-items: start;
+    }
+    .image_plan {
+        flex-direction: unset;
+        gap: 20px;
+        width: 100%;
+    }
+    .planImage {
+        width: 90px;
+        height: 90px;
+    }
+    .darkBlueLine, .lightBlueLine, .plan_caracter {
+        display: none;
+    }
+    .getPlan_btn {
+        align-items: center;
+        width: 5px;
+        height: 5px;
+        border-radius: 50px;
+    }
+    .price {
+        margin: 0px 0px 8px 0px;
+    }
+}
