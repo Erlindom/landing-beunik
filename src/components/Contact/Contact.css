@@ -1,0 +1,36 @@
+.contact_content {
+    padding-top: 80px;
+}
+
+.title_contact {
+    display: none;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.illus_contact {
+    width: 270px;
+}
+
+.icon_contact {
+    display: flex;
+    gap: 17px;
+    color: #575757;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.img_contact {
+    width: 28px;
+}
+
+.text_contact {
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: var(--Blue);
+}

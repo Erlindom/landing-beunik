@@ -5,6 +5,7 @@ import Benefits from "./components/Benefits/Benefits";
 import DownloadApp from "./components/DownloadApp/Download";
 import Membership from "./components/Membership/Membership";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <DownloadApp />
       <Membership />
       <Testimonial />
+      <Contact />
     </div>
   );
 }
