@@ -1,5 +1,11 @@
+.testimonial_content {
+    padding-top: 60px;
+}
+
 .testimonial {
     background-color: #f4f7f9;
+    padding-top: 35px;
+    padding-bottom: 50px;
 }
 
 .testimonies-content {
@@ -10,9 +16,11 @@
 
 .title-testimonial {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--Blue);
     font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .testimonies-content::-webkit-scrollbar {
@@ -92,7 +100,6 @@
 @media(max-width: 768px) {
     .testimonies-content {
         overflow-x: auto;
-        margin-bottom: 100px;
         justify-content: start;
         padding: 20px;
     }
