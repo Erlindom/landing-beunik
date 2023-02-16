@@ -27,6 +27,6 @@
 
 @media(max-width: 768px) {
     .testimonie {
-        min-width: 340px;
+        min-width: 200px;
     }
 }
