@@ -95,9 +95,32 @@
 }
 
 @media(max-width: 768px) {
+    .testimonial {
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
     .testimonies-content {
         overflow-x: auto;
         justify-content: start;
         padding: 20px;
+    }
+}
+
+@media(max-width: 630px) {
+    .title-testimonial {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 520px) {
+    .title-testimonial {
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .title-testimonial {
+        font-size: 1.5rem;
     }
 }
