@@ -6,13 +6,13 @@ function Download() {
   return (
     <section className="download_section">
       <div className="download_app">
-        <div>
+        <div className="info_content">
           <h4 className="title_downloadApp">
-            Descarga la App y empieza <br /> tu mes gratis.
+            Descarga la App y empieza tu mes gratis.
           </h4>
           <p className="text_downloadApp">
-            Sin hacer ningún pago inicial o vincular tu tarjeta, <br /> luego
-            puede elegir una de nuestras membresías.
+            Sin hacer ningún pago inicial o vincular tu tarjeta, luego puedes
+            elegir una de nuestras membresías.
           </p>
         </div>
         <div className="downloadApp_btn">

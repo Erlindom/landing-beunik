@@ -11,6 +11,12 @@
     background-image: url("../Images/Bg_DownloadApp.png");
 }
 
+.info_content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
 .title_downloadApp {
     font-size: 2.7rem;
     color: var(--White);
@@ -64,4 +70,61 @@
     .download_app {
        gap: 45px;
     }
+}
+
+@media(max-width: 600px) {
+    .title_downloadApp {
+       font-size: 1.5rem;
+    }
+    .text_downloadApp {
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 520px) {
+    .title_downloadApp {
+       font-size: 1.3rem;
+    }
+    .text_downloadApp {
+        font-size: 0.8rem;
+    }
+    .download_app {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 450px) {
+    .title_downloadApp {
+       font-size: 1.1rem;
+    }
+    .text_downloadApp {
+        font-size: 0.7rem;
+    }
+    .download_app {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 385px) {
+    .title_downloadApp {
+       font-size: 1rem;
+    }
+    .text_downloadApp {
+        font-size: 0.6rem;
+    }
+    .download_app {
+        gap: 10px;
+    }
+}
+
+@media(max-width: 350px) {
+    .title_downloadApp {
+        font-size: 0.9rem;
+     }
+     .text_downloadApp {
+         font-size: 0.6rem;
+     }
+     .download_app {
+         gap: 10px;
+     }
 }

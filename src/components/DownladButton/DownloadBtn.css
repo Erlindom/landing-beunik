@@ -30,3 +30,57 @@
         font-size: 1.3rem;
     }
 }
+
+@media(max-width: 575px) {
+    .btn-store {
+        width: 165px;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+    .store {
+        font-size: 1.1rem;
+    }
+    .icon_store {
+        width: 21px;
+    }
+}
+
+@media(max-width: 455px) {
+    .btn-store {
+        width: 140px;
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+    }
+    .store {
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 390px) {
+    .btn-store {
+        width: 130px;
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+    }
+    .store {
+        font-size: 0.9rem;
+    }
+    .icon_store {
+        width: 17px;
+    }
+}
+
+@media(max-width: 350px) {
+    .btn-store {
+        width: 100px;
+        font-size: 0.5rem;
+        line-height: 0.7rem;
+        gap: 7px;
+    }
+    .store {
+        font-size: 0.7rem;
+    }
+    .icon_store {
+        width: 15px;
+    }
+}
