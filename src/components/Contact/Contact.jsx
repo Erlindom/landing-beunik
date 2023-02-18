@@ -7,10 +7,7 @@ import IconWhatsApp from "../Images/icon_WhatsApp.svg";
 function Contact() {
   return (
     <section className="contact_content">
-      <p className="title_contact">
-        Conéctate con <br />
-        nosotros.
-      </p>
+      <p className="textContactMobile">Conéctate con nosotros.</p>
       <div className="contact">
         <div>
           <img className="illus_contact" src={IllusContact} alt="" />
@@ -22,11 +19,11 @@ function Contact() {
           </p>
           <div className="icon_contact">
             <img className="img_contact" src={IconWhatsApp} alt="" />
-            <p>3195176868</p>
+            <p className="contact_number">3195176868</p>
           </div>
           <div className="icon_contact">
             <img className="img_contact" src={IconEmail} alt="" />
-            <p>admin@beunik.co</p>
+            <p className="contact_email">admin@beunik.co</p>
           </div>
         </div>
       </div>

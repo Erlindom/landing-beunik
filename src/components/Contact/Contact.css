@@ -1,14 +1,15 @@
 .contact_content {
     padding-top: 80px;
+    padding-bottom: 40px;
 }
 
-.title_contact {
+.textContactMobile {
     display: none;
 }
 
 .contact {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     gap: 60px;
 }
@@ -29,8 +30,112 @@
     width: 28px;
 }
 
+.contact_number, .contact_email {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 .text_contact {
     font-size: 2.3rem;
     font-weight: 600;
     color: var(--Blue);
+}
+
+@media(max-width:768px) {
+    .contact_content {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .contact {
+        align-items: center;
+    }
+    .illus_contact {
+        width: 200px;
+    }
+    .textContactMobile {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--Blue);
+    }
+    .text_contact {
+        display: none;
+    }
+}
+
+@media(max-width:630px) {
+    .contact {
+        gap: 30px;
+    }
+}
+
+@media(max-width:565px) {
+    .illus_contact {
+        width: 180px;
+    }
+    .contact_number, .contact_email {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:460px) {
+    .contact {
+        gap: 20px;
+    }
+    .illus_contact {
+        width: 150px;
+    }
+    .contact_number, .contact_email {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media(max-width:425px) {
+    .textContactMobile {
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width:395px) {
+    .contact {
+        gap: 10px;
+    }
+    .illus_contact {
+        width: 140px;
+    }
+    .img_contact {
+        width: 24px;
+    }
+    .icon_contact {
+        gap: 10px;
+    }
+    .contact_number, .contact_email {
+        font-size: 1.1rem;
+    }
+    .textContactMobile {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:355px) {
+    .contact {
+        gap: 10px;
+    }
+    .illus_contact {
+        width: 130px;
+    }
+    .img_contact {
+        width: 20px;
+    }
+    .icon_contact {
+        gap: 10px;
+    }
+    .contact_number, .contact_email {
+        font-size: 0.9rem;
+    }
+    .textContactMobile {
+        font-size: 1.3rem;
+    }
 }
