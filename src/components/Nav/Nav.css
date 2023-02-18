@@ -11,10 +11,13 @@
     user-select: none;
 }
 
+.icon-hamburger, .icon-close, .navMenuMobile {
+    display: none;
+}
+
 .links-content {
     display: flex;
     gap: 20px;
-    text-align: start;
 }
 
 .links {
@@ -25,15 +28,6 @@
 
 .link_icon {
     width: 23px;
-}
-
-.icon-hamburger {
-    display: none;
-}
-
-.nav-menu {
-    display: flex;
-    gap: 20px;
 }
 
 .logo-hamburger {
@@ -49,20 +43,24 @@
 }
 
 @media (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        gap: 25px;
+    .navMenuDesktop {
+        display: none;
     }
-    .icon-hamburger {
+    .navMenuMobile {
         display: flex;
-    }
-    .nav-menu {
         flex-direction: column;
-        text-align: center;
-        border-radius: 6px;
-        padding: 30px;
-        width: 53%;
         align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        top: 0;
+        height: 100%;
+        box-sizing: border-box;
+        background: linear-gradient(90deg, rgba(57,104,165,1) 0%, rgba(57,178,219,1) 35%, rgba(70,135,200,1) 100%);
+        transform: translateX(0%);
+        transition: transform 0.3s ease;
     }
     .nav-logo {
         display: flex;
@@ -70,30 +68,21 @@
         align-items: center;
         width: 100%;
     }
-
+    .icon-hamburger, .logo-hamburger {
+        display: flex;
+    }
+    .icon-close {
+        display: flex;
+        position: absolute;
+        top: 3rem;
+        right: 7rem;
+    }
     .links-content {
         flex-direction: column;
     }
-    .logo-hamburger {
-        display: initial;
+    .closeMenu {
+        transform: translateX(100%);
+        transition: transform 0.4s ease;
     }
-    .open {
-        display: flex;
-    }
-    .closed {
-        display: none;
-    }
-    .end {
-        justify-content: end;
-        position: absolute;
-        top: 25px;
-        right: 25px;
-    }
-    .bg-hamburger {
-        height: 100vh;
-        box-sizing: border-box;
-        position: fixed;
-        width: 100%;
-        z-index: 1;
-    }
+
 }
