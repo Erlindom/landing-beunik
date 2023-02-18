@@ -6,6 +6,7 @@ import DownloadApp from "./components/DownloadApp/Download";
 import Membership from "./components/Membership/Membership";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Membership />
       <Testimonial />
       <Contact />
+      <Footer />
     </div>
   );
 }
