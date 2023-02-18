@@ -37,4 +37,22 @@
     .membershipsMobile {
         display: flex;
     }
+    .title_membership {
+        font-size: 2.4rem;
+        width: 70%;
+        margin: 40px auto;
+    }
+}
+
+@media(max-width: 465px) {
+    .title_membership {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 380px) {
+    .title_membership {
+        font-size: 1.8rem;
+        width: 75%;
+    }
 }

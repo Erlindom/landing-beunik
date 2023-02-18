@@ -40,3 +40,38 @@
         margin: 0px 0px 8px 0px;
     }
 }
+
+@media(max-width: 400px) {
+    .plan, .planTwo, .planThree {
+        width: 300px;
+    }
+    .planTitleBlue, .planTitleWhite  {
+        font-size: 1.2rem;
+    }
+    .plan-text {
+        font-size: 0.6rem;
+    }
+    .planImage {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media(max-width: 350px) {
+    .plan, .planTwo, .planThree {
+        width: 270px;
+    }
+    .planTitleBlue, .planTitleWhite  {
+        font-size: 1.1rem;
+    }
+    .plan-text {
+        font-size: 0.6rem;
+    }
+    .planImage {
+        width: 60px;
+        height: 60px;
+    }
+    .price {
+        font-size: 1.1rem;
+    }
+}
