@@ -103,6 +103,7 @@
         overflow-x: auto;
         justify-content: start;
         padding: 20px;
+        scrollbar-width: none;
     }
 }
 
