@@ -96,21 +96,9 @@
     }
 }
 
-@media(max-width: 975px) {
-    .nav-link {
-        font-size: 0.8rem;
-    }
-    .link_icon {
-        width: 20px;
-    }
-}
-
 @media(max-width: 890px) {
     .btn-store {
         line-height: 1.3rem;
-    }
-    .link_icon {
-        width: 16px;
     }
     .logo {
         width: 130px;
