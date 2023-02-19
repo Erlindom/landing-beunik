@@ -1,0 +1,65 @@
+.BenefitsMobile_content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: none;
+}
+
+.BenefitsMobile {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.BenefitsMobile::-webkit-scrollbar {
+    width: 0;
+}
+
+.benefitsChecked_content {
+    display: flex;
+    justify-content: center;
+}
+
+.benefits_checked {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_checked {
+    font-size: 2rem;
+    color: var(--Blue);
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 768px) {
+    .BenefitsMobile_content {
+        display: block;
+    }
+}
+
+@media(max-width: 425px) {
+    .benefits_checked {
+        width: 65%;
+    }
+    .title_checked {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .title_checked {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 365px) {
+    .benefits_checked {
+        width: 75%;
+    }
+    .title_checked {
+        font-size: 1.3rem;
+    }
+}

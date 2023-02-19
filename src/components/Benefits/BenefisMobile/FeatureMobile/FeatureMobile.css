@@ -1,0 +1,43 @@
+.featureMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #f1f1f1;
+    border-radius: 15px;
+    min-width: 250px;
+    height: 420px;
+    padding: 10px;
+}
+
+.mackupFeature {
+    width: 110px;
+}
+
+.titleTile_content {
+    display: flex;
+    height: 20%;
+    align-items: center;
+}
+
+.title_tile {
+    color: var(--Blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.subtitle_tile {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--Dark-blue);
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.description_tile {
+    font-size: 0.7rem;
+    text-align: center;
+    color: #969696;
+    font-weight: 500;
+}

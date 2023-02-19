@@ -1,0 +1,16 @@
+.checked_content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon_check {
+    width: 15px;
+}
+
+.textChecked {
+    color: var(--Dark-blue);
+    font-weight: 600;
+    margin: 5px 0 5px 0;
+}
+
