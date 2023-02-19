@@ -70,6 +70,9 @@
     .download_app {
        gap: 45px;
     }
+    .download_section {
+        padding-top: 0;
+    }
 }
 
 @media(max-width: 600px) {
