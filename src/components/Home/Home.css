@@ -102,7 +102,7 @@
     }
 }
 
-@media(max-width: 425px) {
+@media(max-width: 768px) {
     .slide {
         display: none;
     }
@@ -111,10 +111,10 @@
         width: 100%;
     }
     .home-title {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
     .home-p {
-        font-size: 0.9rem;
+        font-size: 1.3rem;
     }
     .btn-content {
         flex-direction: column;
@@ -122,7 +122,19 @@
     }
     .imgcelular {
         width: 57%;
-        top: 9rem;
+        top: 12rem;
         right: 0rem;
+    }
+}
+
+@media(max-width: 425px) {
+    .home-title {
+        font-size: 1.3rem;
+    }
+    .home-p {
+        font-size: 0.9rem;
+    }
+    .imgcelular {
+        top: 9rem;
     }
 }
