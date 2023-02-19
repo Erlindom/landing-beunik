@@ -6,21 +6,6 @@ import "./Benefits.css";
 function Benefits() {
   return (
     <section className="benefits">
-      <div className="video_content">
-        <div className="video">
-          <img
-            className="preview_video"
-            src={require("../Images/video.png")}
-            alt=""
-          />
-        </div>
-        <div>
-          <p className="video-p">
-            Si el avance tecnológico <br /> no para de avanzar <br />
-            <span className="text_bold_video">¿Tú por qué sí?</span>
-          </p>
-        </div>
-      </div>
       <FeaturesLeft>
         <div>
           <h3 className="feature-title">

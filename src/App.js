@@ -1,6 +1,7 @@
 import "./App.css";
 import Nav from "./components/Nav/Nav";
 import Home from "./components/Home/Home";
+import Video from "./components/VideoLoop/Video";
 import Benefits from "./components/Benefits/Benefits";
 import BenefitsMobile from "./components/Benefits/BenefisMobile/BenefitsMobile";
 import DownloadApp from "./components/DownloadApp/Download";
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Nav />
       <Home />
+      <Video />
       <Benefits />
       <BenefitsMobile />
       <DownloadApp />
