@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+.slideMobile {
+    display: none;
+}
+
 .home-content {
     display: flex;
     align-items: center;
@@ -95,5 +99,30 @@
 @media(max-width: 890px) {
     .btn-store {
         line-height: 1.3rem;
+    }
+}
+
+@media(max-width: 425px) {
+    .slide {
+        display: none;
+    }
+    .slideMobile {
+        display: block;
+        width: 100%;
+    }
+    .home-title {
+        font-size: 1.3rem;
+    }
+    .home-p {
+        font-size: 0.9rem;
+    }
+    .btn-content {
+        flex-direction: column;
+        gap: 9px;
+    }
+    .imgcelular {
+        width: 57%;
+        top: 9rem;
+        right: 0rem;
     }
 }

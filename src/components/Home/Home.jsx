@@ -6,6 +6,11 @@ function Home() {
   return (
     <section className="home">
       <img className="slide" src={require("../Images/Slide.png")} alt="" />
+      <img
+        className="slideMobile"
+        src={require("../Images/SlideMobile.png")}
+        alt=""
+      />
       <div className="home-content">
         <div>
           <div>
