@@ -9,6 +9,7 @@
     align-items: center;
     height: 300px;
     background-image: url("../Images/Bg_DownloadApp.png");
+    background-size: 100% 100%;
 }
 
 .info_content {
