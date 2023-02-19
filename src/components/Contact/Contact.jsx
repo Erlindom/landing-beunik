@@ -6,7 +6,7 @@ import IconWhatsApp from "../Images/icon_WhatsApp.svg";
 
 function Contact() {
   return (
-    <section className="contact_content">
+    <section className="contact_content" id="contact">
       <p className="textContactMobile">Conéctate con nosotros.</p>
       <div className="contact">
         <div>

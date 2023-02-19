@@ -4,7 +4,7 @@ import "../Testimonial/Testimonial.css";
 
 function Testimonial() {
   return (
-    <section className="testimonial_content">
+    <section className="testimonial_content" id="testimonial">
       <div className="testimonial">
         <h5 className="title-testimonial">Conoce la experiencia del gremio</h5>
         <div className="testimonies-content">

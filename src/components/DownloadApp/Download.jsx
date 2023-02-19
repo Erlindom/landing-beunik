@@ -4,7 +4,7 @@ import DownloadBtn from "../DownladButton/DownloadBtn";
 
 function Download() {
   return (
-    <section className="download_section">
+    <section className="download_section" id="download">
       <div className="download_app">
         <div className="info_content">
           <h4 className="title_downloadApp">

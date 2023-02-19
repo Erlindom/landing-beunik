@@ -10,7 +10,7 @@ import "../Membership/Membership.css";
 
 function Membership() {
   return (
-    <section>
+    <section id="membership">
       <h5 className="title_membership">Planes diseñados a tu medida</h5>
       <div className="memberships">
         <Plan

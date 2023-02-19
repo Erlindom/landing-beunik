@@ -1,5 +1,6 @@
 * {
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
     --Text: #575757;
     --White: #fff;
     --Blue: #308ecd;

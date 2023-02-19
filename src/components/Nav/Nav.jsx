@@ -32,31 +32,31 @@ function Nav() {
           <div className="links-content">
             <div className="links">
               <img className="link_icon" src={BenefitIcon} alt="" />
-              <a className="nav-link" href="/#">
+              <a className="nav-link" href="#benefits">
                 Beneficios
               </a>
             </div>
             <div className="links">
               <img className="link_icon" src={DownloadIcon} alt="" />
-              <a className="nav-link" href="/#">
+              <a className="nav-link" href="#download">
                 Descargas
               </a>
             </div>
             <div className="links">
               <img className="link_icon" src={MembershipIcon} alt="" />
-              <a className="nav-link" href="/#">
+              <a className="nav-link" href="#membership">
                 Membresías
               </a>
             </div>
             <div className="links">
               <img className="link_icon" src={TestimonyIcon} alt="" />
-              <a className="nav-link" href="/#">
+              <a className="nav-link" href="#testimonial">
                 Testimonios
               </a>
             </div>
             <div className="links">
               <img className="link_icon" src={ContactIcon} alt="" />
-              <a className="nav-link" href="/#">
+              <a className="nav-link" href="#contact">
                 Contacto
               </a>
             </div>
@@ -77,31 +77,31 @@ function Nav() {
         <div className="links-content">
           <div className="links">
             <img className="link_icon" src={BenefitIcon} alt="" />
-            <a className="nav-link" onClick={handleClick} href="/#">
+            <a className="nav-link" onClick={handleClick} href="#benefits">
               Beneficios
             </a>
           </div>
           <div className="links">
             <img className="link_icon" src={DownloadIcon} alt="" />
-            <a className="nav-link" onClick={handleClick} href="/#">
+            <a className="nav-link" onClick={handleClick} href="#download">
               Descargas
             </a>
           </div>
           <div className="links">
             <img className="link_icon" src={MembershipIcon} alt="" />
-            <a className="nav-link" onClick={handleClick} href="/#">
+            <a className="nav-link" onClick={handleClick} href="#membership">
               Membresías
             </a>
           </div>
           <div className="links">
             <img className="link_icon" src={TestimonyIcon} alt="" />
-            <a className="nav-link" onClick={handleClick} href="/#">
+            <a className="nav-link" onClick={handleClick} href="#testimonial">
               Testimonios
             </a>
           </div>
           <div className="links">
             <img className="link_icon" src={ContactIcon} alt="" />
-            <a className="nav-link" onClick={handleClick} href="/#">
+            <a className="nav-link" onClick={handleClick} href="#contact">
               Contacto
             </a>
           </div>

@@ -5,7 +5,7 @@ import "./Benefits.css";
 
 function Benefits() {
   return (
-    <section className="benefits">
+    <section className="benefits" id="benefits">
       <FeaturesLeft>
         <div>
           <h3 className="feature-title">
