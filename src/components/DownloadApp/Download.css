@@ -70,6 +70,8 @@
 @media(max-width: 768px) {
     .download_app {
        gap: 45px;
+       background-image: url("../Images/Bg_DownloadApp_mobile_200px.png");
+       height: 200px;
     }
     .download_section {
         padding-top: 0;
@@ -94,15 +96,6 @@
     }
     .download_app {
         gap: 20px;
-    }
-}
-
-@media(max-width: 500px) {
-    .download_app {
-        background-image: url("../Images/Bg_DownloadApp_mobile.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 225px;
     }
 }
 
