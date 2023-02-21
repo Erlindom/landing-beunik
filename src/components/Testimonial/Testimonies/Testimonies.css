@@ -1,5 +1,10 @@
 .icon-avatar {
-    width: 70px;
+    width: 50px;
+}
+
+.avatar-name {
+    font-size: 0.8rem;
+    margin-bottom: 4px;
 }
 
 .avatar-content {
@@ -21,8 +26,37 @@
     text-align: center;
 }
 
+.starYellow-content {
+    display: flex;
+    gap: 3px;
+}
+
 .starYellow {
-    width: 20px;
+    width: 13px;
+}
+
+@media(max-width: 1265px) {
+    .testimonie {
+        width: 325px;
+    }
+    .text-testimonie {
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 1200px) {
+    .testimonie {
+        width: 300px;
+    }
+    .text-testimonie {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 1020px) {
+    .text-testimonie {
+        font-size: 0.7rem;
+    }
 }
 
 @media(max-width: 768px) {

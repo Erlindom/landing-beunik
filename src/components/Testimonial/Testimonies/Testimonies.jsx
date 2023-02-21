@@ -12,8 +12,8 @@ function Testimonies() {
             src={require("../../Images/avatar.png")}
             alt=""
           />
-          <p>Juan Carlos Mejía</p>
-          <div>
+          <p className="avatar-name">Juan Carlos Mejía</p>
+          <div className="starYellow-content">
             <img className="starYellow" src={iconStarYellow} alt="" />
             <img className="starYellow" src={iconStarYellow} alt="" />
             <img className="starYellow" src={iconStarYellow} alt="" />
@@ -23,9 +23,9 @@ function Testimonies() {
         </div>
         <div>
           <p className="text-testimonie">
-            "Excelente app para el gremio de las <br /> barberías. Facilita el
-            agendamiento de citas <br /> y adicionalmente permite mejor control
-            <br /> administrativo."
+            "Excelente app para el gremio de las barberías. Facilita el
+            agendamiento de citas y adicionalmente permite mejor control
+            administrativo."
           </p>
         </div>
       </div>
