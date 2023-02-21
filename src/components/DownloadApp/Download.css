@@ -97,6 +97,15 @@
     }
 }
 
+@media(max-width: 500px) {
+    .download_app {
+        background-image: url("../Images/Bg_DownloadApp_mobile.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 225px;
+    }
+}
+
 @media(max-width: 450px) {
     .title_downloadApp {
        font-size: 1.1rem;
@@ -106,6 +115,7 @@
     }
     .download_app {
         gap: 20px;
+        height: 200px;
     }
 }
 
@@ -118,6 +128,7 @@
     }
     .download_app {
         gap: 10px;
+        height: 180px;
     }
 }
 
@@ -130,5 +141,6 @@
      }
      .download_app {
          gap: 10px;
+         height: 150px;
      }
 }
