@@ -9,7 +9,7 @@ function Testimonies(props) {
         <div className="avatar-content">
           <img
             className="icon-avatar"
-            src={require("../../Images/avatar.png")}
+            src={require(`../../Images/${props.image}.jpeg`)}
             alt=""
           />
           <p className="avatar-name">{props.name}</p>
