@@ -2,7 +2,7 @@ import React from "react";
 import "../Testimonies/Testimonies.css";
 import iconStarYellow from "../../Images/icon_StartYellow.svg";
 
-function Testimonies() {
+function Testimonies(props) {
   return (
     <>
       <div className="testimonie">
@@ -12,7 +12,7 @@ function Testimonies() {
             src={require("../../Images/avatar.png")}
             alt=""
           />
-          <p className="avatar-name">Juan Carlos Mejía</p>
+          <p className="avatar-name">{props.name}</p>
           <div className="starYellow-content">
             <img className="starYellow" src={iconStarYellow} alt="" />
             <img className="starYellow" src={iconStarYellow} alt="" />
@@ -22,11 +22,7 @@ function Testimonies() {
           </div>
         </div>
         <div>
-          <p className="text-testimonie">
-            "Excelente app para el gremio de las barberías. Facilita el
-            agendamiento de citas y adicionalmente permite mejor control
-            administrativo."
-          </p>
+          <p className="text-testimonie">{props.testimonial}</p>
         </div>
       </div>
     </>

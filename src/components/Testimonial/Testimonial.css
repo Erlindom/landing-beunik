@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     gap: 70px;
+    overflow-x: auto;
 }
 
 .title-testimonial {
