@@ -5,8 +5,12 @@ function FeaturesRight(props) {
     <>
       <div className="feature">
         {props.children}
-        <div className="gris">
-          <img src={require(`../../Images/${props.image}.png`)} alt="" />
+        <div className="featureImg_content">
+          <img
+            className="feature_img"
+            src={require(`../../Images/${props.image}.png`)}
+            alt=""
+          />
         </div>
       </div>
     </>

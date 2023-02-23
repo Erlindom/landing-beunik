@@ -4,8 +4,12 @@ function FeaturesLeft(props) {
   return (
     <>
       <div className="feature">
-        <div className="gris">
-          <img src={require(`../../Images/${props.image}.png`)} alt="" />
+        <div className="featureImg_content">
+          <img
+            className="feature_img"
+            src={require(`../../Images/${props.image}.png`)}
+            alt=""
+          />
         </div>
         {props.children}
       </div>
