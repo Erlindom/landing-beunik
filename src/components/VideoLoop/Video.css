@@ -12,10 +12,6 @@
     justify-content: center;
 }
 
-.preview_video {
-    width: 90%;
-}
-
 .video-p {
     font-size: 2.6rem;
     color: var(--Blue);
@@ -52,9 +48,6 @@
     .text_bold_video {
         font-size: 2.4rem;
     }
-    .preview_video {
-        width: 80%;
-    }
 }
 
 @media(max-width: 1265px) {
@@ -78,8 +71,5 @@
     }
     .textVideo_content {
         display: none;
-    }
-    .preview_video {
-        width: 100%;
     }
 }
