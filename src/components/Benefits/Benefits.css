@@ -87,7 +87,7 @@
 
 @media(max-width: 855px) {
     .feature {
-        gap: 80px;
+        gap: 50px;
     }
     .featureImg_content {
         height: 460px;
