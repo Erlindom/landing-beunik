@@ -12,7 +12,7 @@ function Benefits() {
             Mejora la experiencia <br /> de tus clientes
           </h3>
           <h4 className="feature-text">
-            ¿Se enojan tus clientes por que <br /> no responder WhatsApp
+            ¿Pierdes clientes por no <br /> responder WhatsApp?
           </h4>
           <p className="feature-description">
             ¡No hagas esperar a tu cliente! <br /> Tenemos una solución para ti.
