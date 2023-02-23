@@ -12,10 +12,9 @@
 }
 
 .gris {
+    display: flex;
     width: 350px;
     height: 550px;
-    background: #f4f7f9;
-    border: 1px solid black;
 }
 
 

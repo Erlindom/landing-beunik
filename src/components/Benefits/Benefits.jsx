@@ -6,7 +6,7 @@ import "./Benefits.css";
 function Benefits() {
   return (
     <section className="benefits" id="benefits">
-      <FeaturesLeft>
+      <FeaturesLeft image="illus_better_experience">
         <div>
           <h3 className="feature-title">
             Mejora la experiencia <br /> de tus clientes
@@ -19,7 +19,7 @@ function Benefits() {
           </p>
         </div>
       </FeaturesLeft>
-      <FeaturesRight>
+      <FeaturesRight image="illus_gains_recognition">
         <div>
           <h3 className="feature-title">Posiciona tu marca</h3>
           <h4 className="feature-text">
@@ -31,7 +31,7 @@ function Benefits() {
           </p>
         </div>
       </FeaturesRight>
-      <FeaturesLeft>
+      <FeaturesLeft image="illus_increase_sales">
         <div>
           <h3 className="feature-title">Aumenta tus ventas</h3>
           <h4 className="feature-text">¡Crea promociones irresistibles!</h4>
@@ -41,7 +41,7 @@ function Benefits() {
           </p>
         </div>
       </FeaturesLeft>
-      <FeaturesRight>
+      <FeaturesRight image="illus_gains_recognition">
         <div>
           <h3 className="feature-title">Gana reconocimiento</h3>
           <h4 className="feature-text">
@@ -52,7 +52,7 @@ function Benefits() {
           </p>
         </div>
       </FeaturesRight>
-      <FeaturesLeft>
+      <FeaturesLeft image="illus_teamwork">
         <div>
           <h3 className="feature-title">
             Tu equipo de trabajo <br /> en un solo lugar

@@ -1,14 +1,16 @@
 import React from "react";
 
-function Features(props) {
+function FeaturesRight(props) {
   return (
     <>
       <div className="feature">
         {props.children}
-        <div className="gris"></div>
+        <div className="gris">
+          <img src={require(`../../Images/${props.image}.png`)} alt="" />
+        </div>
       </div>
     </>
   );
 }
 
-export default Features;
+export default FeaturesRight;
