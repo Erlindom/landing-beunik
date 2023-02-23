@@ -1,0 +1,16 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-img {
+    width: 20px;
+}
+
+.arrow-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
