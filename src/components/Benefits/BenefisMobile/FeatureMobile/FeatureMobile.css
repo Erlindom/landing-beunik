@@ -5,12 +5,12 @@
     border: 3px solid #f1f1f1;
     border-radius: 15px;
     min-width: 250px;
-    height: 420px;
+    height: 445px;
     padding: 10px;
 }
 
 .mackupFeature {
-    width: 110px;
+    width: 150px;
 }
 
 .titleTile_content {
@@ -28,7 +28,6 @@
 }
 
 .subtitle_tile {
-    font-size: 0.9rem;
     font-weight: 600;
     color: var(--Dark-blue);
     text-align: center;
@@ -36,7 +35,7 @@
 }
 
 .description_tile {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: center;
     color: #969696;
     font-weight: 500;

@@ -11,7 +11,7 @@ function FeatureMobile(props) {
         <div>
           <img
             className="mackupFeature"
-            src={require("../../../Images/muckupPhone.png")}
+            src={require(`../../../Images/${props.image}.png`)}
             alt=""
           />
         </div>
