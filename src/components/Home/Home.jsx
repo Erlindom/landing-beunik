@@ -26,9 +26,9 @@ function Home() {
             <DownloadBtn />
           </div>
         </div>
-        <div className="cosm">
+        <div className="imagePhone_content">
           <img
-            className="imgcelular"
+            className="img_phone"
             src={require("../Images/muckup_phone_front.png")}
             alt=""
           />

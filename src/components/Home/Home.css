@@ -42,13 +42,13 @@
 }
 
 
-.cosm {
+.imagePhone_content {
     display: flex;
     justify-content: center;
     width: 20%;
 }
 
-.imgcelular {
+.img_phone {
     width: 34%;
     position: absolute;
     top: 3rem;
