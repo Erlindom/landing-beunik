@@ -37,13 +37,13 @@ const testimonies = [
   {
     id: 6,
     name: "Y&M STUDIO",
-    img: "CirculoRojo",
+    img: "Y&M_Studio",
     desc: "Definitivamente, la tecnología es el camino, tenemos una fundación en Bello y sabemos lo importante que es educar a las personas en esta nueva era digital.",
   },
   {
     id: 7,
     name: "Hipton",
-    img: "CirculoRojo",
+    img: "Hipton",
     desc: "Tenía temor de empezar porque no soy muy bueno con la tecnología, pero mi clientela fue muy receptiva y el manejo de la App muy sencillo.",
   },
   {
@@ -89,12 +89,12 @@ function Testimonial() {
             testimonial="Me ahorra tiempo, desde el día jueves ya tengo el fin de semana totalmente agendado."
           />
           <Testimonies
-            image="Bigboss"
+            image="Y&M_Studio"
             name="Y&M STUDIO"
             testimonial="Definitivamente, la tecnología es el camino, tenemos una fundación en Bello y sabemos lo importante que es educar a las personas en esta nueva era digital."
           />
           <Testimonies
-            image="Bigboss"
+            image="Hipton"
             name="Hipton"
             testimonial="Tenía temor de empezar porque no soy muy bueno con la tecnología, pero mi clientela fue muy receptiva y el manejo de la App muy sencillo."
           />
