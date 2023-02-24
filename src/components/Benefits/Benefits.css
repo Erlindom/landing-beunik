@@ -1,13 +1,13 @@
 .benefits {
     display: flex;
     flex-direction: column;
-    gap: 120px;
+    gap: 20px;
 }
 
 .feature {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -86,9 +86,6 @@
 }
 
 @media(max-width: 855px) {
-    .feature {
-        gap: 50px;
-    }
     .featureImg_content {
         height: 460px;
     }
