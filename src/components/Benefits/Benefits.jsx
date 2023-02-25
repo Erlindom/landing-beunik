@@ -19,7 +19,7 @@ function Benefits() {
           </p>
         </div>
       </FeaturesLeft>
-      <FeaturesRight image="illus_gains_recognition">
+      <FeaturesRight image="illus_position_brand">
         <div>
           <h3 className="feature-title">Posiciona tu marca</h3>
           <h4 className="feature-text">

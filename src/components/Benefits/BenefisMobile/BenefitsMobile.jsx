@@ -14,7 +14,7 @@ function BenefitsMobile() {
           description="¡No hagas esperar a tu cliente! Tenemos una solución para ti."
         />
         <FeatureMobile
-          image="illus_better_experience"
+          image="illus_position_brand"
           title="Posiciona tu marca"
           subtitle="¡Conecta tu negocio con el mundo!"
           description="Muestra los servicios que ofreces, fotos de tus trabajos, reseñas, promociones y mucho más."
