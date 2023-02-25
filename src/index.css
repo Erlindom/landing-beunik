@@ -1,7 +1,11 @@
 * {
     font-family: 'Quicksand', sans-serif;
     scroll-behavior: smooth;
+    --border-feature: #f1f1f1;
+    --text-gray: #969696;
+    --bg-lightGray: #f4f7f9;
     --Text: #575757;
+    --Black: #000;
     --White: #fff;
     --Blue: #308ecd;
     --Light-blue: #69c8f3;

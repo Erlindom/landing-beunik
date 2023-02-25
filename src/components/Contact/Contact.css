@@ -21,7 +21,7 @@
 .icon_contact {
     display: flex;
     gap: 17px;
-    color: #575757;
+    color: var(--Text);
     font-weight: 500;
     font-size: 1.5rem;
 }

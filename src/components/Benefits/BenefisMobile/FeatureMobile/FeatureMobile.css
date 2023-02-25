@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid #f1f1f1;
+    border: 3px solid var(--border-feature);
     border-radius: 15px;
     min-width: 250px;
     height: 445px;
@@ -37,6 +37,6 @@
 .description_tile {
     font-size: 0.9rem;
     text-align: center;
-    color: #969696;
+    color: var(--text-gray);
     font-weight: 500;
 }
