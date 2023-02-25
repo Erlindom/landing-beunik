@@ -22,7 +22,7 @@ function Testimonies(props) {
           </div>
         </div>
         <div>
-          <p className="text-testimonie">{props.testimonial}</p>
+          <p className="text-testimonie">{`"${props.testimonial}".`}</p>
         </div>
       </div>
     </>

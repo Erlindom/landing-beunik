@@ -5,10 +5,12 @@
 }
 
 .arrow-img {
-    width: 20px;
+    width: 18px;
 }
 
 .arrow-btn {
+    display: flex;
+    height: 100%;
     background: none;
     border: none;
     cursor: pointer;

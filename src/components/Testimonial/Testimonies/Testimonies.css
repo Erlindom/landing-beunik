@@ -1,15 +1,15 @@
 .icon-avatar {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     border-radius: 50px;
     border: 1px solid var(--Blue);
 }
 
 .avatar-name {
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-bottom: 4px;
     color: #575757;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .avatar-content {
@@ -20,21 +20,21 @@
 }
 
 .testimonie {
-    width: 350px;
-    height: 250px;
+    width: 425px;
+    height: 315px;
     box-shadow: 0px 3px 11px -1px rgba(0,0,0,0.08);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
     background: var(--White);
 }
 
 .text-testimonie {
     text-align: center;
-    font-size: 0.9rem;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     color: #575757;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -44,7 +44,37 @@
 }
 
 .starYellow {
-    width: 20px;
+    width: 25px;
+}
+
+@media(max-width: 1720px) {
+    .text-testimonie {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 1575px) {
+    .testimonie {
+        height: 300px;
+    }
+    .avatar-name {
+        font-size: 1.3rem;
+    }
+    .text-testimonie {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 1470px) {
+    .testimonie {
+        height: 280px;
+    }
+    .avatar-name {
+        font-size: 1.2rem;
+    }
+    .text-testimonie {
+        font-size: 0.9rem;
+    }
 }
 
 @media(max-width: 1265px) {
@@ -71,9 +101,14 @@
     }
 }
 
+@media(max-width: 880px) {
+    .starYellow {
+        width: 20px;
+    }
+}
+
 @media(max-width: 768px) {
     .testimonie {
         min-width: 200px;
-        height: auto;
     }
 }

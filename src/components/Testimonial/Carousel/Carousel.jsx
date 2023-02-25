@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import iconStarYellow from "../../Images/icon_StartYellow.svg";
+import iconLeft from "../../Images/icon_left.svg";
+import iconRight from "../../Images/icon_right.svg";
 import "../Carousel/Carousel.css";
 
 function Carousel({ testimonie }) {
@@ -59,7 +61,7 @@ function Carousel({ testimonie }) {
           >
             <img
               className="arrow-img"
-              src={require("../../Images/LEFT_ARROW.png")}
+              src={iconLeft}
               alt="Flecha para mover hacía la izquierda"
             />
           </button>
@@ -82,7 +84,7 @@ function Carousel({ testimonie }) {
                     <img className="starYellow" src={iconStarYellow} alt="" />
                   </div>
                   <div>
-                    <p className="text-testimonie">{testimonieShow.desc}</p>
+                    <p className="text-testimonie">{`"${testimonieShow.desc}".`}</p>
                   </div>
                 </div>
               </div>
@@ -94,7 +96,7 @@ function Carousel({ testimonie }) {
           >
             <img
               className="arrow-img"
-              src={require("../../Images/RIGHT_ARROW.png")}
+              src={iconRight}
               alt="Flecha para mover hacía la derecha"
             />
           </button>
