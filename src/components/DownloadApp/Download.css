@@ -2,6 +2,38 @@
     padding-top: 150px;
 }
 
+.steps_download_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_stepsDownload {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--Blue);
+}
+
+.steps_download {
+    display: flex;
+    align-items: flex-start;
+    gap: 140px;
+}
+
+.stepp {
+    text-align: center;
+}
+
+.icon_steps {
+    width: 170px;
+}
+
+.text_step {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--Blue);
+}
+
 .download_app {
     display: flex;
     justify-content: center;
@@ -37,6 +69,21 @@
     gap: 20px;
 }
 
+@media (max-width: 1265px){
+    .title_stepsDownload {
+        font-size: 2.8rem;
+    }
+    .steps_download {
+        gap: 120px;
+    }
+    .icon_steps {
+        width: 150px;
+    }
+    .text_step {
+        font-size: 1.8rem;
+    }
+}
+
 @media(max-width: 1150px) {
     .title_downloadApp {
         font-size: 2.4rem;
@@ -46,12 +93,45 @@
     }
 }
 
+@media (max-width: 1120px){
+    .steps_download {
+        gap: 100px;
+    }
+    .icon_steps {
+        width: 130px;
+    }
+}
+
 @media(max-width: 1024px) {
     .title_downloadApp {
         font-size: 2rem;
     }
+    .steps_download {
+        gap: 90px;
+    }
+    .icon_steps {
+        width: 120px;
+    }
+    .text_step {
+        font-size: 1.6rem;
+    }
+    .title_stepsDownload {
+        font-size: 2.4rem;
+    }
     .text_downloadApp {
         font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 895px) {
+    .title_stepsDownload {
+        font-size: 2.2rem;
+    }
+    .steps_download {
+        gap: 75px;
+    }
+    .icon_steps {
+        width: 110px;
     }
 }
 
@@ -76,6 +156,39 @@
     .download_section {
         padding-top: 0;
     }
+    .steps_download_content, .download_app {
+        background-color: var(--Gray);
+    }
+    .title_stepsDownload {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .icon_steps {
+        width: 100px;
+    }
+    .text_step {
+        font-size: 1.4rem;
+    }
+    .steps_download {
+        gap: 40px;
+    }
+}
+
+@media(max-width: 705px) {
+    .title_stepsDownload {
+        text-align: center;
+        font-size: 2rem;
+        width: 65%;
+    }
+}
+
+@media(max-width: 635px) {
+    .icon_steps {
+        width: 95px;
+    }
+    .text_step {
+        font-size: 1.2rem;
+    }
 }
 
 @media(max-width: 600px) {
@@ -84,6 +197,39 @@
     }
     .text_downloadApp {
         font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 575px) {
+    .title_downloadApp {
+       font-size: 1.3rem;
+    }
+    .steps_download {
+        gap: 30px;
+    }
+    .text_downloadApp {
+        font-size: 0.8rem;
+    }
+    .icon_steps {
+        width: 80px;
+    }
+    .download_app {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 525px) {
+    .title_stepsDownload {
+        font-size: 1.8rem;
+    }
+    .steps_download {
+        gap: 25px;
+    }
+    .icon_steps {
+        width: 75px;
+    }
+    .text_step {
+        font-size: 1rem;
     }
 }
 
@@ -99,6 +245,13 @@
     }
 }
 
+@media(max-width: 475px) {
+    .title_stepsDownload {
+        font-size: 1.8rem;
+        width: 77%;
+    }
+}
+
 @media(max-width: 450px) {
     .title_downloadApp {
        font-size: 1.1rem;
@@ -109,6 +262,24 @@
     .download_app {
         gap: 20px;
         height: 200px;
+    }
+    .icon_steps {
+        width: 70px;
+    }
+    .text_step {
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 425px) {
+    .steps_download {
+        gap: 18px;
+    }
+    .title_stepsDownload {
+        font-size: 1.6rem;
+    }
+    .icon_steps {
+        width: 60px;
     }
 }
 
@@ -123,6 +294,18 @@
         gap: 10px;
         height: 180px;
     }
+    .icon_steps {
+        width: 55px;
+    }
+    .text_step {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 355px) {
+    .title_stepsDownload {
+        font-size: 1.4rem;
+    }
 }
 
 @media(max-width: 350px) {
@@ -136,4 +319,13 @@
          gap: 10px;
          height: 150px;
      }
+}
+
+@media(max-width: 325px) {
+    .steps_download {
+        gap: 13px;
+    }
+    .text_step {
+        font-size: 0.7rem;
+    }
 }
