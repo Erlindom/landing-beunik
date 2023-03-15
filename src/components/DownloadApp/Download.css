@@ -37,7 +37,8 @@
 .download_app {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    flex-direction: column;
+    gap: 30px;
     align-items: center;
     height: 300px;
     background-image: url("../Images/Bg_DownloadApp.png");
@@ -45,27 +46,18 @@
 }
 
 .info_content {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.title_downloadApp {
-    font-size: 2.7rem;
-    color: var(--White);
-    font-weight: 600;
-    margin: 0;
+    width: 60%;
 }
 
 .text_downloadApp {
-    font-size: 1.9rem;
+    font-size: 2rem;
     color: var(--White);
     margin: 5px 0 0 0;
+    text-align: center;
 }
 
 .downloadApp_btn {
     display: flex;
-    flex-direction: column;
     gap: 20px;
 }
 
@@ -85,9 +77,6 @@
 }
 
 @media(max-width: 1150px) {
-    .title_downloadApp {
-        font-size: 2.4rem;
-    }
     .text_downloadApp {
         font-size: 1.5rem;
     }
@@ -103,9 +92,6 @@
 }
 
 @media(max-width: 1024px) {
-    .title_downloadApp {
-        font-size: 2rem;
-    }
     .steps_download {
         gap: 90px;
     }
@@ -136,9 +122,6 @@
 }
 
 @media(max-width: 855px) {
-    .title_downloadApp {
-        font-size: 1.7rem;
-    }
     .text_downloadApp {
         font-size: 1.1rem;
     }
@@ -152,6 +135,17 @@
        gap: 45px;
        background-image: url("../Images/Bg_DownloadApp_mobile_200px.png");
        height: 200px;
+       flex-direction: row;
+       gap: 50px;
+    }
+    .downloadApp_btn {
+        flex-direction: column;
+    }
+    .text_downloadApp {
+        text-align: start;
+    }
+    .info_content {
+        width: 38%;
     }
     .download_section {
         padding-top: 0;
@@ -191,24 +185,9 @@
     }
 }
 
-@media(max-width: 600px) {
-    .title_downloadApp {
-       font-size: 1.5rem;
-    }
-    .text_downloadApp {
-        font-size: 0.9rem;
-    }
-}
-
 @media(max-width: 575px) {
-    .title_downloadApp {
-       font-size: 1.3rem;
-    }
     .steps_download {
         gap: 30px;
-    }
-    .text_downloadApp {
-        font-size: 0.8rem;
     }
     .icon_steps {
         width: 80px;
@@ -234,12 +213,6 @@
 }
 
 @media(max-width: 520px) {
-    .title_downloadApp {
-       font-size: 1.3rem;
-    }
-    .text_downloadApp {
-        font-size: 0.8rem;
-    }
     .download_app {
         gap: 20px;
     }
@@ -253,11 +226,8 @@
 }
 
 @media(max-width: 450px) {
-    .title_downloadApp {
-       font-size: 1.1rem;
-    }
     .text_downloadApp {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     .download_app {
         gap: 20px;
@@ -284,12 +254,6 @@
 }
 
 @media(max-width: 385px) {
-    .title_downloadApp {
-       font-size: 1rem;
-    }
-    .text_downloadApp {
-        font-size: 0.6rem;
-    }
     .download_app {
         gap: 10px;
         height: 180px;
@@ -309,9 +273,6 @@
 }
 
 @media(max-width: 350px) {
-    .title_downloadApp {
-        font-size: 0.9rem;
-     }
      .text_downloadApp {
          font-size: 0.6rem;
      }

@@ -36,12 +36,9 @@ function Download() {
       </div>
       <div className="download_app">
         <div className="info_content">
-          <h4 className="title_downloadApp">
-            Descarga la App y empieza tu mes gratis.
-          </h4>
           <p className="text_downloadApp">
-            Sin hacer ningún pago inicial o vincular tu tarjeta, luego puedes
-            elegir una de nuestras membresías.
+            Inicia sin cláusulas de permanencia y sin hacer ningún pago inicial,
+            luego puedes elegir una de nuestras membresías.
           </p>
         </div>
         <div className="downloadApp_btn">
