@@ -19,32 +19,41 @@ function Membership() {
           PlanTextColor="planTitleBlue"
           colorLine="darkBlueLine"
           planType="Plan PRO"
-          planDescriptionOne="Perfecto para estilistas independientes"
-          planDescriptionTwo="y/o que trabajan a domicilio."
-          planPrice="$39.000"
+          planDescriptionOne="Plan para un profesional"
+          planDescriptionTwo="independiente"
+          planPrice="$29.900"
         >
           <div className="points_content">
             <img src={IconStar} alt="" />
-            <p className="membership_features">Subir fotos de tus trabajos</p>
+            <p className="membership_features">Accede a 1 agenda</p>
           </div>
           <div className="points_content">
             <img src={IconStar} alt="" />
             <p className="membership_features">
-              Acumular seguidores y<br />
-              reseñas
+              Recordatorio automático de <br /> citas a tus clientes
             </p>
           </div>
           <div className="points_content">
             <img src={IconStar} alt="" />
-            <p className="membership_features">Agenda automatuzada</p>
+            <p className="membership_features">Sube fotos de tus trabajos</p>
           </div>
           <div className="points_content">
             <img src={IconStar} alt="" />
-            <p className="membership_features">Crear combos y promociones</p>
+            <p className="membership_features">
+              Crea ofertas para atraer más <br /> clientes
+            </p>
           </div>
           <div className="points_content">
             <img src={IconStar} alt="" />
-            <p className="membership_features">Recordatorio de citas</p>
+            <p className="membership_features">
+              Acumula reseñas y gana <br /> reputación
+            </p>
+          </div>
+          <div className="points_content">
+            <img src={IconStar} alt="" />
+            <p className="membership_features">
+              Accede a bases de datos y <br /> estadísticas de clientes
+            </p>
           </div>
         </Plan>
         <Plan
@@ -53,46 +62,50 @@ function Membership() {
           PlanTextColor="planTitleWhite"
           colorLine="lightBlueLine"
           planType="Plan Team"
-          planDescriptionOne="Perfecto para administrar"
-          planDescriptionTwo="tu equipo de profesionales."
+          planDescriptionOne="Plan para un negocio"
           planPrice="$59.900"
           colorPrice="colorPriceWhite"
         >
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Subir fotos de tus trabajos
+              Accede a agendas ilimtiadas
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Acumular seguidores y<br />
-              reseñas
+              Vincula a tu equipo de trabajo
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Agenda automatuzada
+              Recordatorio automático de <br /> citas a tus clientes
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Crear combos y promociones
+              Sube fotos de tus trabajos
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Recordatorio de citas
+              Crea ofertas para atraer a más <br /> clientes
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Vincular profesionales de <br /> forma ilimitada
+              Acumula reseñas y gana <br /> reputación
+            </p>
+          </div>
+          <div className="points_content">
+            <img src={IconStarWhite} alt="" />
+            <p className="membership_features textFeatureWhite">
+              Accede a bases de datos y <br /> estadísticas de clientes
             </p>
           </div>
         </Plan>
@@ -102,58 +115,56 @@ function Membership() {
           PlanTextColor="planTitleWhite"
           colorLine="lightBlueLine"
           planType="Plan Team PRO"
-          planDescriptionOne="Perfecto para convertir tu negocio"
-          planDescriptionTwo="en una empresa exitosa."
-          planPrice="$119.900"
+          planDescriptionOne="Plan avanzado para negocio"
+          planPrice="$79.900"
           colorPrice="colorPriceWhite"
         >
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Subir fotos de tus trabajos
+              Accede a agendas ilimitadas
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Acumular seguidores y<br />
-              reseñas
+              Vincula a tu equipo de trabajo
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Agenda automatuzada
+              Recordatorio automático de <br /> citas a tus clientes
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Crear combos y promociones
+              Sube fotos de tus trabajos
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Recordatorio de citas
+              Crea ofertas para atraer más <br /> clientes
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Vincular profesionales de forma <br /> ilimitada
+              Acumula reseñas y gana <br /> reputación
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Liquidar todos tus servicios
+              Accede a bases de datos y <br /> estadísticas de clientes
             </p>
           </div>
           <div className="points_content">
             <img src={IconStarWhite} alt="" />
             <p className="membership_features textFeatureWhite">
-              Acceder a la base de datos <br /> de clientes con estadísticas
+              Maneja contabilidad para <br /> liquidar a tu equipo de trabajo
             </p>
           </div>
         </Plan>
@@ -165,92 +176,28 @@ function Membership() {
           PlanTextColor="planTitleBlue"
           colorLine="darkBlueLine"
           planType="Plan PRO"
-          planDescriptionOne="Perfecto para estilistas independientes"
-          planDescriptionTwo="y/o que trabajan a domicilio."
-          planPrice="$39.000"
-        >
-          <div className="points_content">
-            <img src={IconStar} alt="" />
-            <p className="membership_features">Subir fotos de tus trabajos</p>
-          </div>
-          <div className="points_content">
-            <img src={IconStar} alt="" />
-            <p className="membership_features">
-              Acumular seguidores y<br />
-              reseñas
-            </p>
-          </div>
-          <div className="points_content">
-            <img src={IconStar} alt="" />
-            <p className="membership_features">Agenda automatuzada</p>
-          </div>
-          <div className="points_content">
-            <img src={IconStar} alt="" />
-            <p className="membership_features">Crear combos y promociones</p>
-          </div>
-          <div className="points_content">
-            <img src={IconStar} alt="" />
-            <p className="membership_features">Recordatorio de citas</p>
-          </div>
-        </PlanMobile>
+          planDescriptionOne="Plan para un profesional"
+          planDescriptionTwo="independiente"
+          planPrice="$29.900"
+        />
         <PlanMobile
           planImage={IlusPlanTeam}
           planTitle="planTwo"
           PlanTextColor="planTitleWhite"
           colorLine="lightBlueLine"
           planType="Plan Team"
-          planDescriptionOne="Perfecto para administrar tu equipo"
-          planDescriptionTwo="de profesionales."
+          planDescriptionOne="Plan para negocio"
           planPrice="$59.900"
           colorPrice="colorPriceWhite"
-        >
-          <div className="points_content">
-            <img src={IconStarWhite} alt="" />
-            <p className="membership_features textFeatureWhite">
-              Subir fotos de tus trabajos
-            </p>
-          </div>
-          <div className="points_content">
-            <img src={IconStarWhite} alt="" />
-            <p className="membership_features textFeatureWhite">
-              Acumular seguidores y<br />
-              reseñas
-            </p>
-          </div>
-          <div className="points_content">
-            <img src={IconStarWhite} alt="" />
-            <p className="membership_features textFeatureWhite">
-              Agenda automatuzada
-            </p>
-          </div>
-          <div className="points_content">
-            <img src={IconStarWhite} alt="" />
-            <p className="membership_features textFeatureWhite">
-              Crear combos y promociones
-            </p>
-          </div>
-          <div className="points_content">
-            <img src={IconStarWhite} alt="" />
-            <p className="membership_features textFeatureWhite">
-              Recordatorio de citas
-            </p>
-          </div>
-          <div className="points_content">
-            <img src={IconStarWhite} alt="" />
-            <p className="membership_features textFeatureWhite">
-              Vincular profesionales de <br /> forma ilimitada
-            </p>
-          </div>
-        </PlanMobile>
+        />
         <PlanMobile
           planImage={IlusPlanTeamPro}
           planTitle="planThree"
           PlanTextColor="planTitleWhite"
           colorLine="lightBlueLine"
           planType="Plan Team PRO"
-          planDescriptionOne="Perfecto para convertir tu negocio"
-          planDescriptionTwo="en una empresa exitosa."
-          planPrice="$119.900"
+          planDescriptionOne="Plan avanzado para negocio"
+          planPrice="$79.900"
           colorPrice="colorPriceWhite"
         >
           <div className="points_content">

@@ -38,6 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 145px;
 }
 
 .planImage {
@@ -204,13 +205,14 @@
 }
 
 @media(max-width: 768px) {
-    .plan, .planTwo, .planThree {
-        width: 400px;
-    }
     .image_plan {
         flex-direction: unset;
+        height: 100px;
     }
     .darkBlueLine, .lightBlueLine, .plan_caracter {
         display: none;
+    }
+    .title_plan {
+        margin: 8px 0px 0px 0px;
     }
 }

@@ -1,6 +1,6 @@
 @media(max-width: 768px) {
     .plan, .planTwo, .planThree {
-        width: 320px;
+        width: 340px;
         border-radius: 0;
         padding: 10px 15px 10px 15px;
     }
