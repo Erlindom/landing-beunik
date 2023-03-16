@@ -37,8 +37,18 @@ function Download() {
       <div className="download_app">
         <div className="info_content">
           <p className="text_downloadApp">
-            Inicia sin cláusulas de permanencia y sin hacer ningún pago inicial,
-            luego puedes elegir una de nuestras membresías.
+            <span className="text_downloadAppBold">
+              Sin cláusulas de permanencia y sin pago inicial.
+            </span>{" "}
+            <br /> Descubre el paso a paso para{" "}
+            <a
+              href="https://play.google.com/store/apps/details?id=com.beunik_clients"
+              target="_blank"
+              rel="noreferrer"
+              className="link_createProfile"
+            >
+              crear tu perfil aquí
+            </a>
           </p>
         </div>
         <div className="downloadApp_btn">

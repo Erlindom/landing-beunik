@@ -56,6 +56,16 @@
     text-align: center;
 }
 
+.text_downloadAppBold {
+    font-weight: 500;
+}
+
+.link_createProfile {
+    color: var(--White);
+    text-decoration: underline 1.3px;
+    font-weight: 500;
+}
+
 .downloadApp_btn {
     display: flex;
     gap: 20px;
