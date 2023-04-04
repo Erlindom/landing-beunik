@@ -30,7 +30,12 @@ function PlanMobile(props) {
             </div>
           </div>
           <div>
-            <a className="getPlan_btn" href="">
+            <a
+              className="getPlan_btn"
+              href="https://wa.link/b87xc8"
+              target="_blank"
+              rel="noreferrer"
+            >
               +
             </a>
           </div>

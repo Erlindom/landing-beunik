@@ -26,7 +26,12 @@ function Plan(props) {
               <span className="cop">COP</span>
               <span className="monthly">/mensual</span>
             </p>
-            <a className="getPlan_btn" href="">
+            <a
+              className="getPlan_btn"
+              href="https://wa.link/b87xc8"
+              target="_blank"
+              rel="noreferrer"
+            >
               Adquirir plan
             </a>
           </div>
